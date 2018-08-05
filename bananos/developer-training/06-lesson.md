@@ -3,7 +3,7 @@
 Read up about json in the javascript reference on the main developer training page.
 
 6.1) On your gh-pages site add a new file called index.json with the following contents.
-```
+```json
 [
 	{
 		"id": 1,
