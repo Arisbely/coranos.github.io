@@ -1,5 +1,27 @@
 # Lesson Five, tables in index.html
 
-read up on html here: https://www.w3schools.com/html/default.asp
+On your gh-pages site in index.html, under your list of links, add a html table.
 
-read up on css here: https://www.w3schools.com/css/default.asp
+Read up about tables in the html reference on the main developer training page.
+
+```
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<head>
+<title>Banano</title>
+<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload="onLoad();">
+  <div id="banano"></div>
+  <ol>
+    <li><img class="small_image" src="https://cdn.discordapp.com/attachments/416341951416369153/473520270309720064/kinderschoko.jpg" /></li>
+  </ol>
+  <script>
+      function onLoad () {
+        document.getElementById('banano').innerHTML = 'Coranos Bananos';
+      }
+    </script>
+</body>
+</html>
+```
