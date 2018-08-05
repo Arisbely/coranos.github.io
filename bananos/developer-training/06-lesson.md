@@ -22,8 +22,55 @@ Read up about json in the javascript reference on the main developer training pa
 <body onload="onLoad();">
   <div id="banano"></div>
   <script>
-      function onLoad () {
-        document.getElementById('banano').innerHTML = 'Coranos Bananos';
+	  const loadJson = () => {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            loadJsonCallback(this.response);
+          }
+        }
+        xhttp.responseType = 'json';
+        xhttp.open('GET', 'index.json', true);
+        xhttp.send();
+      }
+
+      const loadJsonCallback = (json) => {
+        const banano = document.getElementById('banano');
+        
+        const header = document.createTextNode('Coranos Bananos');
+        
+        banano.appendChild(header);
+
+        const table = document.createElement('table');      
+        banano.appendChild(table);
+        
+        const tableHeaderRow = document.createElement('tr');
+        table.appendChild(tableHeaderRow);
+
+        if(json.length == 0) {
+          return;
+        }
+        
+        for (const [key, value] of Object.entries(json[0])) {
+          const tableHeaderElt = document.createElement('th');
+          tableHeaderRow.appendChild(tableHeaderElt);
+          tableHeaderElt.appendChild(document.createTextNode(key));
+        }
+        
+        json.forEach((jsonElt,jsonEltIx) => {
+          const tableDataRow = document.createElement('tr');
+          table.appendChild(tableDataRow);
+
+          for (const [key, value] of Object.entries(jsonElt)) {
+            const tableDataElt = document.createElement('td');
+            tableDataRow.appendChild(tableDataElt);
+            tableDataElt.appendChild(document.createTextNode(value));
+          }
+        });
+      }
+
+      const onLoad = () => {
+        loadJson();
       }
     </script>
 </body>
