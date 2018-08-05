@@ -1,6 +1,7 @@
 # Developer Training
 
-## Student Progress (Update when you are done with a lesson)
+## Student Progress
+Update the progress page when you are done with a lesson.
 
 [Student Progress Page](students.md)
 
