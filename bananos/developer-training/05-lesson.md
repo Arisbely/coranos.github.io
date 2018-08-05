@@ -1,4 +1,4 @@
-# Lesson Five, tables in index.html
+# Lesson Five, tables in index.html, borders in index.css
 
 On your gh-pages site in index.html, under your list of links, add a html table.
 
@@ -38,4 +38,12 @@ Read up about tables in the html reference on the main developer training page.
     </script>
 </body>
 </html>
+```
+
+```
+table, tr, td, th {
+  border: solid;
+  border-width: 0.5px;
+  font-family: monospace;
+}
 ```
