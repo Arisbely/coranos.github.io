@@ -2,7 +2,7 @@
 
 Read up about json in the javascript reference on the main developer training page.
 
-6.1) On your gh-pages site add a new file called index.json with the following contents.
+## 6.1 On your gh-pages site add a new file called index.json with the following contents.
 ```json
 [
 	{
@@ -16,7 +16,7 @@ Read up about json in the javascript reference on the main developer training pa
 ]
 ```
 
-6.2) On your gh-pages site in index.html, inside the script, modify the onLoad function to load the json.
+## 6.2 On your gh-pages site in index.html, inside the script, modify the onLoad function to load the json.
 ```html
 <!DOCTYPE html>
 <body onload="onLoad();">
