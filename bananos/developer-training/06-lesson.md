@@ -17,7 +17,7 @@ Read up about json in the javascript reference on the main developer training pa
 ```
 
 6.2) On your gh-pages site in index.html, inside the script, modify the onLoad function to load the json.
-```
+```javascript
 <!DOCTYPE html>
 <body onload="onLoad();">
   <div id="banano"></div>
