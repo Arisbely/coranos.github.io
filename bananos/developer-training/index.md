@@ -26,6 +26,7 @@ html reference: https://www.w3schools.com/html/default.asp
 
 css reference: https://www.w3schools.com/css/default.asp
 
+javascript reference: https://www.w3schools.com/js/default.asp
 
 ### eventually
 freelancer amazon-turk fiverr wordpress prestashop opencart joomla magento autotrading-crypto-arbitrage-bot
