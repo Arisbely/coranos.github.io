@@ -18,9 +18,18 @@ Read up about tables in the html reference on the main developer training page.
     <li><img class="small_image" src="https://i.imgur.com/Remo7td.png" /></li>
   </ol>
   <table>
-    <th><td>Id</td><td>Name</td></th>
-    <tr><td>1</td><td>Alpha</td></tr>
-    <tr><td>2</td><td>Beta</td></tr>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Alpha</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Beta</td>
+    </tr>
   </table>
   <script>
       function onLoad () {
