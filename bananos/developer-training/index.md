@@ -1,6 +1,10 @@
 # Developer Training
 
+## Student Progress (Update when you are done with a lesson)
+
 [Student Progress Page](students.md)
+
+## Lessons
 
 [Lesson One, Github and Atom](01-lesson.md)
 
@@ -14,7 +18,7 @@
 
 [Lesson Six, loading data from JSON](06-lesson.md)
 
-# references
+## References
 
 markdown reference (1): https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
