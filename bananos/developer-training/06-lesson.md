@@ -21,8 +21,23 @@ Read up about json in the javascript reference on the main developer training pa
 <!DOCTYPE html>
 <body onload="onLoad();">
   <div id="banano"></div>
-  <script>
-      const loadJson = () => {
+    <script>
+      const addChildText = (parent,childText) => {
+        const node = document.createTextNode(childText);
+        parent.appendChild(node);
+        return node;
+      }
+  
+      const addChildElement = (parent,childType,childText) => {
+        const child = document.createElement(childType);
+        parent.appendChild(child);
+        if(childText !== undefined) {
+          child.appendChild(document.createTextNode(childText));
+        }
+        return child;
+      }
+  
+	  const loadJson = () => {
         const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
           if (this.readyState == 4 && this.status == 200) {
@@ -37,34 +52,24 @@ Read up about json in the javascript reference on the main developer training pa
       const loadJsonCallback = (json) => {
         const banano = document.getElementById('banano');
         
-        const header = document.createTextNode('Coranos Bananos');
-        
-        banano.appendChild(header);
+        addChildText(banano, 'Coranos Bananos');
 
-        const table = document.createElement('table');      
-        banano.appendChild(table);
+        const table = addChildElement(banano,'table');
         
-        const tableHeaderRow = document.createElement('tr');
-        table.appendChild(tableHeaderRow);
+        const tableHeaderRow = addChildElement(table,'tr');
 
         if(json.length == 0) {
           return;
         }
         
         for (const [key, value] of Object.entries(json[0])) {
-          const tableHeaderElt = document.createElement('th');
-          tableHeaderRow.appendChild(tableHeaderElt);
-          tableHeaderElt.appendChild(document.createTextNode(key));
+          addChildElement(tableHeaderRow,'th',key);
         }
         
         json.forEach((jsonElt,jsonEltIx) => {
-          const tableDataRow = document.createElement('tr');
-          table.appendChild(tableDataRow);
-
+          const tableDataRow = addChildElement(table,'tr');
           for (const [key, value] of Object.entries(jsonElt)) {
-            const tableDataElt = document.createElement('td');
-            tableDataRow.appendChild(tableDataElt);
-            tableDataElt.appendChild(document.createTextNode(value));
+            addChildElement(tableDataRow,'td',value);
           }
         });
       }
