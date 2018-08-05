@@ -1,4 +1,4 @@
-# Lesson One, Github and Atom.
+# Lesson One, Github and Atom
 
 1.1) Go to https://github.com and create an account.
 

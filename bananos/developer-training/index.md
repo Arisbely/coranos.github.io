@@ -10,11 +10,20 @@
 
 [Lesson Four, add HTML to your index.html, use CSS](04-lesson.md)
 
-## Lesson Five, tables in index.html.
+[Lesson Five, tables in index.html](05-lesson.md)
 
-read up on html here: https://www.w3schools.com/html/default.asp
+[Lesson Six, loading data from JSON](06-lesson.md)
 
-read up on css here: https://www.w3schools.com/css/default.asp
+# references
+
+markdown reference: https://guides.github.com/features/mastering-markdown/
+
+markdown style guide: https://github.com/google/styleguide/blob/gh-pages/docguide/style.md
+
+html reference: https://www.w3schools.com/html/default.asp
+
+css reference: https://www.w3schools.com/css/default.asp
+
 
 ### eventually
 freelancer amazon-turk fiverr wordpress prestashop opencart joomla magento autotrading-crypto-arbitrage-bot

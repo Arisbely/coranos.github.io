@@ -1,4 +1,4 @@
-# Lesson Three, simple index.html.
+# Lesson Three, simple index.html
 
 3.1) in your github pages site, add an index.html with the following code:
 ```
