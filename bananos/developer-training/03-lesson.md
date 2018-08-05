@@ -1,6 +1,6 @@
 # Lesson Three, simple index.html
 
-3.1) in your github pages site, add an index.html with the following code:
+## 3.1 - in your github pages site, add an index.html with the following code:
 ```html
     <!DOCTYPE html>
     <html>
@@ -18,7 +18,8 @@
     </body>
     </html>
 ```
-3.2) update this page with a link to your Github Pages
+
+## 3.2 - update this page with a link to your Github Pages
 ```
 git pull;git commit -a -m "updated index.html";git push;
 ```
