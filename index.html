@@ -44,18 +44,32 @@
         
         banano.appendChild(header);
 
-        const table = document.createElement('table')
+        const table = document.createElement('table');      
+        banano.appendChild(table);
         
-        var innerHTML = 'Coranos Bananos';
+        const tableHeaderRow = document.createElement('tr');
+        table.appendChild(tableHeaderRow);
+
+        if(json.length == 0) {
+          return;
+        }
         
-        innerHTML += '<table><tr><th><td>Id></td>';
+        for (const [key, value] of Object.entries(json[0])) {
+          const tableHeaderElt = document.createElement('th');
+          tableHeaderRow.appendChild(tableHeaderElt);
+          tableHeaderElt.appendChild(document.createTextNode(key));
+        }
+        
         json.forEach((jsonElt,jsonEltIx) => {
-          
-        })
-        innerHTML += '</table>';
-        
-        innerHTML += text;
-        document.getElementById('banano').innerHTML = innerHTML;
+          const tableDataRow = document.createElement('tr');
+          table.appendChild(tableDataRow);
+
+          for (const [key, value] of Object.entries(jsonElt)) {
+            const tableDataElt = document.createElement('td');
+            tableDataRow.appendChild(tableDataElt);
+            tableDataElt.appendChild(document.createTextNode(value));
+          }
+        });
       }
 
       function onLoad () {
