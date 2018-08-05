@@ -16,7 +16,9 @@
 
 # references
 
-markdown reference: https://guides.github.com/features/mastering-markdown/
+markdown reference (1): https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+markdown reference (2): https://guides.github.com/features/mastering-markdown/
 
 markdown style guide: https://github.com/google/styleguide/blob/gh-pages/docguide/style.md
 
