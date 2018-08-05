@@ -2,7 +2,7 @@
 
 Read up about html and css in the html and css references on the main developer training page.
 
-4.1) using atom, in your github pages site, add a file called index.css that contains the following code:
+## 4.1 - using atom, in your github pages site, add a file called index.css that contains the following code:
 
 ```css
 .small_image {
@@ -11,7 +11,7 @@ Read up about html and css in the html and css references on the main developer 
 }
 ```
 
-4.2) in your github pages site, in index.html, add an ordered list of images. Set the image's width and height to be 100 pixels using CSS classes.
+## 4.2 - in your github pages site, in index.html, add an ordered list of images. Set the image's width and height to be 100 pixels using CSS classes.
 ```html
 <!DOCTYPE html>
 <html>
