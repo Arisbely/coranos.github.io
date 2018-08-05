@@ -10,7 +10,7 @@
 
 [Lesson Four, add HTML to your index.html, use CSS](04-lesson.md)
 
-[Lesson Five, tables in index.html](05-lesson.md)
+[Lesson Five, tables in index.html, borders in index.css](05-lesson.md)
 
 [Lesson Six, loading data from JSON](06-lesson.md)
 
