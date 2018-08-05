@@ -1,7 +1,7 @@
 # Lesson Three, simple index.html
 
 3.1) in your github pages site, add an index.html with the following code:
-```
+```html
     <!DOCTYPE html>
     <html>
     <meta charset="utf-8" />
