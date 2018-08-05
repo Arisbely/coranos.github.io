@@ -37,7 +37,7 @@ Read up about json in the javascript reference on the main developer training pa
         return child;
       }
   
-	  const loadJson = () => {
+      const loadJson = () => {
         const xhttp = new XMLHttpRequest();
         xhttp.onreadystatechange = function () {
           if (this.readyState == 4 && this.status == 200) {
