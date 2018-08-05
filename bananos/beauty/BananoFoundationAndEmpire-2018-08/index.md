@@ -55,6 +55,9 @@
 [03-id]: https://i.imgur.com/FoXNCn9.png "thumbnail"
 [03-video-01]: https://youtu.be/OrOAKHhTDFo "video-1"
 
+[04-id]: https://cdn.discordapp.com/attachments/447402769771659264/475068303560278037/mi_mismo.jpg "thumbnail"
+
+
 [05-id]: https://i.imgur.com/u3CfHHI.png "thumbnail"
 
 [06-id]: https://i.imgur.com/YDXH4Qt.jpg "thumbnail"
