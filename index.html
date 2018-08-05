@@ -25,8 +25,41 @@
     </tr>
   </table>
   <script>
+      function loadJson () {
+        const xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            loadJsonCallback(this.response);
+          }
+        }
+        xhttp.responseType = 'json';
+        xhttp.open('GET', 'index.json', true);
+        xhttp.send();
+      }
+
+      function loadJsonCallback (json) {
+        const banano = document.getElementById('banano');
+        
+        const header = document.createTextNode('Coranos Bananos');
+        
+        banano.appendChild(header);
+
+        const table = document.createElement('table')
+        
+        var innerHTML = 'Coranos Bananos';
+        
+        innerHTML += '<table><tr><th><td>Id></td>';
+        json.forEach((jsonElt,jsonEltIx) => {
+          
+        })
+        innerHTML += '</table>';
+        
+        innerHTML += text;
+        document.getElementById('banano').innerHTML = innerHTML;
+      }
+
       function onLoad () {
-        document.getElementById('banano').innerHTML = 'Coranos Bananos';
+        loadJson();
       }
     </script>
 </body>
