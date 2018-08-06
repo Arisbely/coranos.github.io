@@ -20,6 +20,14 @@ Update the progress page when you are done with a lesson.
 
 [Lesson Six, loading data from JSON](06-lesson.md)
 
+## Lesson Notes
+
+To compare two files install the compare-files module in atom.
+
+in atom's menu select, Packages->Settings View->Install Packages/Themes.
+
+Search for "compare-files" package, and install it.
+
 ## References
 
 markdown reference (1): https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
