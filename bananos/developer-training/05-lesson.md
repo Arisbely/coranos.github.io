@@ -41,6 +41,7 @@ Read up about borders in the css reference on the main developer training page.
 </html>
 ```
 
+Commit the changes, using the commands you learned in lesson 3.2.
 
 ## 5.2 - On your gh-pages site in index.css, add border styling for your table, rows, header cells, and data cells.
 ```css
@@ -50,3 +51,5 @@ table, tr, td, th {
   font-family: monospace;
 }
 ```
+
+Commit the changes, using the commands you learned in lesson 3.2.
