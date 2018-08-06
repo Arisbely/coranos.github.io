@@ -28,6 +28,8 @@ in atom's menu select, Packages->Settings View->Install Packages/Themes.
 
 Search for "compare-files" package, and install it.
 
+Select two files, then select "packages->compare files->compare" from the atom menu
+
 ## References
 
 markdown reference (1): https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
