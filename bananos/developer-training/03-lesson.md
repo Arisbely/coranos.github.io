@@ -20,6 +20,14 @@
 ```
 
 ## 3.2 - update this page with a link to your Github Pages
+
+If you are not in your gh-pages repository, go into the repository folder:
+```
+cd git;
+cd <username>.github.io;
+```
+
+then commit the changes.
 ```
 git pull;git commit -a -m "updated index.html";git push;
 ```
