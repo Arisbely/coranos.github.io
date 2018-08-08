@@ -81,3 +81,5 @@ Read up about json in the javascript reference on the main developer training pa
 </body>
 </html>
 ```
+
+if the page does not load as expected, check the browser's javascript console with `Ctrl + Shift + J`
