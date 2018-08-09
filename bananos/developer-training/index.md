@@ -44,6 +44,8 @@ css reference: https://www.w3schools.com/css/default.asp
 
 javascript reference: https://www.w3schools.com/js/default.asp
 
+git reference in spanish: http://rogerdudler.github.io/git-guide/index.es.html
+
 ### eventually
 freelancer amazon-turk fiverr wordpress prestashop opencart joomla magento autotrading-crypto-arbitrage-bot
 
